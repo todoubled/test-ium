@@ -1,0 +1,5 @@
+launch = false
+
+[app]
+command = coffee test/app
+port = 3000

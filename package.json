@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/integration.coffee",
-    "start": "coffee test/app.coffee"
+    "start": "./node_modules/.bin/coffee test/app.coffee"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/todoubled/test-ium",
   "dependencies": {
     "connect": "^3.3.5",
-    "testium": "^2.6.0"
+    "testium": "^2.6.0",
+    "coffee-script": "1.6.3"
   }
 }
